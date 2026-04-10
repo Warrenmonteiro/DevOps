@@ -17,8 +17,10 @@ Day 3 is where we added a virtual network with a /24 subet
 ### Diagram (placeholder)
 
 Resource Group
-└── Virtual Network
-    └── Subnet
+└─ Virtual Network
+   └─ Subnet
+      └─ Network Security Group (baseline)
+    
 
 
 ## Future Iterations will introduce:
@@ -49,3 +51,9 @@ Steps:
 
 
 
+
+## Security (Current State)
+
+A baseline Network Security Group is applied at the subnet level
+Rules are intentionally minimal (“security‑lite”)
+Deeper security hardening will be layered in later phases
