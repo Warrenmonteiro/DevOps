@@ -40,7 +40,7 @@ resource "azurerm_network_security_group" "nsg" {
 
   security_rule {
     name                       = "Allow-VNet-Inbound"
-    priority                   = 100
+    priority                   = 200
     direction                  = "Inbound"
     access                     = "Allow"
     protocol                   = "*"
